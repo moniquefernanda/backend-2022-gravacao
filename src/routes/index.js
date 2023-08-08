@@ -37,7 +37,7 @@ routes.get("/teste", (req, res, next) => {
 });
 
 // routes.use("/api/*", Usuarios.signup);
-routes.use("/api/*", Usuarios.ensureAuthenticated);
+//routes.use("/api/*", Usuarios.ensureAuthenticated);
 
 // routes.use(Usuarios.ensureAuthenticated);
 
